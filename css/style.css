@@ -64,6 +64,7 @@ input[type="radio"] {
   border-radius: 30px;
   margin-right: 32px;
   margin-bottom: 16px;
+  font-size: 0.875rem;
 }
 .filters label:hover {
   background: #555;
@@ -77,27 +78,30 @@ input[type="radio"] {
 
 
 [value="All"]:checked ~ .filters [for="All"],
-[value="cat-a"]:checked ~ .filters [for="cat-a"],
-[value="cat-b"]:checked ~ .filters [for="cat-b"], 
-[value="cat-c"]:checked ~ .filters [for="cat-c"], 
-[value="cat-d"]:checked ~ .filters [for="cat-d"], 
-[value="cat-e"]:checked ~ .filters [for="cat-e"], 
-[value="cat-f"]:checked ~ .filters [for="cat-f"],
-[value="cat-g"]:checked ~ .filters [for="cat-g"],
-[value="cat-h"]:checked ~ .filters [for="cat-h"],
-[value="cat-i"]:checked ~ .filters [for="cat-i"] {
+[value="cat-sports"]:checked ~ .filters [for="cat-sports"],
+[value="cat-business"]:checked ~ .filters [for="cat-business"], 
+[value="cat-outdoor"]:checked ~ .filters [for="cat-outdoor"], 
+[value="cat-classic"]:checked ~ .filters [for="cat-classic"], 
+[value="cat-black"]:checked ~ .filters [for="cat-black"], 
+[value="cat-white"]:checked ~ .filters [for="cat-white"],
+[value="cat-million"]:checked ~ .filters [for="cat-million"],
+[value="cat-repair"]:checked ~ .filters [for="cat-repair"],
+[value="cat-owner"]:checked ~ .filters [for="cat-owner"] {
   background: #555;
   color: #fff;
 }
 [value="All"]:checked ~ .targets [data-category] {
   display: block;
 }
-[value="cat-a"]:checked ~ .targets .target:not([data-category~="cat-a"]), 
-[value="cat-b"]:checked ~ .targets .target:not([data-category~="cat-b"]), 
-[value="cat-c"]:checked ~ .targets .target:not([data-category~="cat-c"]),
-[value="cat-d"]:checked ~ .targets .target:not([data-category~="cat-d"]), 
-[value="cat-e"]:checked ~ .targets .target:not([data-category~="cat-e"]), 
-[value="cat-f"]:checked ~ .targets .target:not([data-category~="cat-f"]){
+[value="cat-sports"]:checked ~ .targets .target:not([data-category~="cat-sports"]), 
+[value="cat-business"]:checked ~ .targets .target:not([data-category~="cat-business"]), 
+[value="cat-outdoor"]:checked ~ .targets .target:not([data-category~="cat-outdoor"]),
+[value="cat-classic"]:checked ~ .targets .target:not([data-category~="cat-classic"]), 
+[value="cat-black"]:checked ~ .targets .target:not([data-category~="cat-black"]), 
+[value="cat-white"]:checked ~ .targets .target:not([data-category~="cat-white"]),
+[value="cat-million"]:checked ~ .targets .target:not([data-category~="cat-million"]),
+[value="cat-repair"]:checked ~ .targets .target:not([data-category~="cat-repair"]),
+[value="cat-owner"]:checked ~ .targets .target:not([data-category~="cat-owner"]){
   display: none;
 }
 
@@ -112,12 +116,15 @@ input[type="radio"] {
   }
 }
 
-[value="cat-a"]:checked ~ .targets .target, 
-[value="cat-b"]:checked ~ .targets .target, 
-[value="cat-c"]:checked ~ .targets .target, 
-[value="cat-d"]:checked ~ .targets .target, 
-[value="cat-e"]:checked ~ .targets .target, 
-[value="cat-f"]:checked ~ .targets .target {
+[value="cat-sports"]:checked ~ .targets .target, 
+[value="cat-business"]:checked ~ .targets .target, 
+[value="cat-outdoor"]:checked ~ .targets .target, 
+[value="cat-classic"]:checked ~ .targets .target, 
+[value="cat-black"]:checked ~ .targets .target, 
+[value="cat-white"]:checked ~ .targets .target,
+[value="cat-million"]:checked ~ .targets .target,
+[value="cat-repair"]:checked ~ .targets .target,
+[value="cat-owner"]:checked ~ .targets .target{
   animation: checked_animation .6s ease-in-out both;
 }
 
