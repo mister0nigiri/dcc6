@@ -32,3 +32,109 @@ img{
 li{
   list-style: none;
 }
+
+.gallery__wrapper{
+  background-color: #000;
+  padding-top: 80px;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+input[type="radio"] {
+  position: absolute;
+  left: -9999px;
+}
+.filters {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: left;
+  margin-bottom: 64px;
+}
+.filters * {
+  display: inline-block;
+}
+.filters label {
+  text-align: center;
+  padding: 3px 18px;
+  line-height: normal;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: #000;
+  background: #fff;
+  border-radius: 30px;
+  margin-right: 32px;
+  margin-bottom: 16px;
+}
+.filters label:hover {
+  background: #555;
+  color: #fff;
+}
+.targets {
+  display: grid;
+  grid-gap: 1.875rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+[value="All"]:checked ~ .filters [for="All"],
+[value="cat-a"]:checked ~ .filters [for="cat-a"],
+[value="cat-b"]:checked ~ .filters [for="cat-b"], 
+[value="cat-c"]:checked ~ .filters [for="cat-c"], 
+[value="cat-d"]:checked ~ .filters [for="cat-d"], 
+[value="cat-e"]:checked ~ .filters [for="cat-e"], 
+[value="cat-f"]:checked ~ .filters [for="cat-f"],
+[value="cat-g"]:checked ~ .filters [for="cat-g"],
+[value="cat-h"]:checked ~ .filters [for="cat-h"],
+[value="cat-i"]:checked ~ .filters [for="cat-i"] {
+  background: #555;
+  color: #fff;
+}
+[value="All"]:checked ~ .targets [data-category] {
+  display: block;
+}
+[value="cat-a"]:checked ~ .targets .target:not([data-category~="cat-a"]), 
+[value="cat-b"]:checked ~ .targets .target:not([data-category~="cat-b"]), 
+[value="cat-c"]:checked ~ .targets .target:not([data-category~="cat-c"]),
+[value="cat-d"]:checked ~ .targets .target:not([data-category~="cat-d"]), 
+[value="cat-e"]:checked ~ .targets .target:not([data-category~="cat-e"]), 
+[value="cat-f"]:checked ~ .targets .target:not([data-category~="cat-f"]){
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .targets {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 650px) {
+  .targets {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+[value="cat-a"]:checked ~ .targets .target, 
+[value="cat-b"]:checked ~ .targets .target, 
+[value="cat-c"]:checked ~ .targets .target, 
+[value="cat-d"]:checked ~ .targets .target, 
+[value="cat-e"]:checked ~ .targets .target, 
+[value="cat-f"]:checked ~ .targets .target {
+  animation: checked_animation .6s ease-in-out both;
+}
+
+[value="All"]:checked ~ .targets [data-category] {
+  animation: checked_animation .6s ease-in-out both;
+}
+  
+.target {
+  animation: checked_animation .6s ease-in-out both;
+}
+@keyframes checked_animation {
+  0% {
+  transform: translate(0, 300px);
+  opacity: 0;
+  }
+  100% {
+  transform: translate(0, 0);
+  opacity: 1;
+  }
+}
