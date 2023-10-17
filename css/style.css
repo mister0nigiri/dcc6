@@ -116,6 +116,7 @@ li{
 }
 
 .menu-second__title{
+  text-transform: uppercase;
   display: block;
   padding-top: 16px;
   text-align: center;
@@ -157,6 +158,8 @@ li{
 }
 
 .sports-top{
+  max-width: 1400px;
+  margin: 0 auto;
   padding-top: 128px;
   background-color: #000;
   color: #fff;
@@ -173,6 +176,7 @@ li{
 }
 
 .sports-top__title{
+  text-transform: uppercase;
   font-size: 2.25rem;
   font-weight: bold;
 }
@@ -191,6 +195,8 @@ li{
 /* Business-Top */
 
 .business-top{
+  max-width: 1400px;
+  margin: 0 auto;
   padding-top: 128px;
   background-color: #000;
   color: #fff;
@@ -208,6 +214,7 @@ li{
 }
 
 .business-top__title{
+  text-transform: uppercase;
   font-size: 2.25rem;
   font-weight: bold;
 }
@@ -226,6 +233,8 @@ li{
 /* Outdoor-Top */
 
 .outdoor-top{
+  max-width: 1400px;
+  margin: 0 auto;
   padding-top: 128px;
   background-color: #000;
   color: #fff;
@@ -242,6 +251,7 @@ li{
 }
 
 .outdoor-top__title{
+  text-transform: uppercase;
   font-size: 2.25rem;
   font-weight: bold;
 }
@@ -259,6 +269,8 @@ li{
 /* Classic-Top */
 
 .classic-top{
+  max-width: 1400px;
+  margin: 0 auto;
   padding-top: 128px;
   background-color: #000;
   color: #fff;
@@ -276,6 +288,7 @@ li{
 }
 
 .classic-top__title{
+  text-transform: uppercase;
   font-size: 2.25rem;
   font-weight: bold;
 }
@@ -294,6 +307,8 @@ li{
 /* Footer */
 
 .footer{
+  max-width: 1400px;
+  margin: 0 auto;
   background-color: #000;
   color: #fff;
   text-align: center;
@@ -575,6 +590,7 @@ input[type="radio"] {
   display: inline-block;
 }
 .filters label {
+  text-transform: uppercase;
   text-align: center;
   padding: 3px 18px;
   line-height: normal;
