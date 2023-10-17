@@ -704,12 +704,10 @@ SP
     display: none;
   }
 
-    /*========= ナビゲーションのためのCSS ===============*/
-
   .openbtn1{
     display: block;
   }
-    
+  
   #g-nav{
     display: block;
   }
@@ -835,378 +833,266 @@ SP
 
   /* MV */
 
-  .mv{
-    max-width: 1400px;
-    margin: 0 auto;
-  }
-
   .mv img{
-    object-fit: cover;
-    width: 1400px;
-    height: 800px;
+    height: 500px;
   }
 
   /* Sports-Top */
 
   .wrapper{
-    max-width: 916px;
-    margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
-
   .sports-top{
-    max-width: 1400px;
-    margin: 0 auto;
-    padding-top: 128px;
-    background-color: #000;
-    color: #fff;
+    padding-top: 70px;
   }
-
   .sports-top__inner{
-    display: flex;
+    flex-direction: column;
   }
-
   .sports-top__text{
-    width: 46%;
-    padding-top: 120px;
-    padding-right: 80px;
+    width: 100%;
+    padding-top: 0px;
+    padding-right: 0px;
   }
-
   .sports-top__title{
-    text-transform: uppercase;
-    font-size: 2.25rem;
-    font-weight: bold;
+    font-size: 2rem;
   }
-
   .sports-top__description{
-    margin-top: 32px;
-    font-size: 0.875rem;
-    line-height: 1.8;
+    margin-top: 20px;
   }
-
   .sports-top__img{
-    width: 54%;
+    margin-top: 20px;
+    width: 100%;
   }
 
 
   /* Business-Top */
 
   .business-top{
-    max-width: 1400px;
-    margin: 0 auto;
-    padding-top: 128px;
-    background-color: #000;
-    color: #fff;
+    padding-top: 70px;
   }
-
   .business-top__inner{
-    display: flex;
+    flex-direction: column;
   }
-
   .business-top__text{
-    width: 46%;
-    padding-top: 120px;
-    padding-left: 80px;
-    order: 2;
-  }
-
-  .business-top__title{
-    text-transform: uppercase;
-    font-size: 2.25rem;
-    font-weight: bold;
-  }
-
-  .business-top__description{
-    margin-top: 32px;
-    font-size: 0.875rem;
-    line-height: 1.8;
-  }
-
-  .business-top__img{
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 0px;
     order: 1;
-    width: 54%;
+  }
+  .business-top__title{
+    font-size: 2rem;
+  }
+  .business-top__description{
+    margin-top: 20px;
+  }
+  .business-top__img{
+    margin-top: 20px;
+    order: 2;
+    width: 100%;
   }
 
   /* Outdoor-Top */
 
   .outdoor-top{
-    max-width: 1400px;
-    margin: 0 auto;
-    padding-top: 128px;
-    background-color: #000;
-    color: #fff;
+    padding-top: 70px;
   }
-
   .outdoor-top__inner{
-    display: flex;
+    flex-direction: column;
   }
-
   .outdoor-top__text{
-    width: 46%;
-    padding-top: 120px;
-    padding-right: 80px;
+    width: 100%;
+    padding-top: 0px;
+    padding-right: 0px;
   }
-
   .outdoor-top__title{
-    text-transform: uppercase;
-    font-size: 2.25rem;
-    font-weight: bold;
+    font-size: 2rem;
   }
-
   .outdoor-top__description{
-    margin-top: 32px;
-    font-size: 0.875rem;
-    line-height: 1.8;
+    margin-top: 20px;
   }
-
   .outdoor-top__img{
-    width: 54%;
+    margin-top: 20px;
+    width: 100%;
   }
 
   /* Classic-Top */
 
   .classic-top{
-    max-width: 1400px;
-    margin: 0 auto;
-    padding-top: 128px;
-    background-color: #000;
-    color: #fff;
+    padding-top: 70px;
   }
-
   .classic-top__inner{
-    display: flex;
+    flex-direction: column;
   }
-
   .classic-top__text{
-    width: 46%;
-    padding-top: 120px;
-    padding-left: 80px;
-    order: 2;
-  }
-
-  .classic-top__title{
-    text-transform: uppercase;
-    font-size: 2.25rem;
-    font-weight: bold;
-  }
-
-  .classic-top__description{
-    margin-top: 32px;
-    font-size: 0.875rem;
-    line-height: 1.8;
-  }
-
-  .classic-top__img{
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 0px;
     order: 1;
-    width: 54%;
+  }
+  .classic-top__title{
+    font-size: 2rem;
+  }
+  .classic-top__description{
+    margin-top: 20px;
+  }
+  .classic-top__img{
+    margin-top: 20px;
+    order: 2;
+    width: 100%;
   }
 
   /* Footer */
 
   .footer{
-    max-width: 1400px;
-    margin: 0 auto;
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 20px;
   }
-
   .copyright{
-    font-size: 0.875rem;
+    font-size: 0.75rem;
   }
 
   /* sports.html */
 
-  /* Sports-Header */
-
-  .sports-header{
-    background-color: transparent;
-  }
-
   /* Sports-MV */
 
-  .sports-mv{
-    max-width: 1400px;
-    margin: 0 auto;
-  }
-
   .sports-mv img{
-    object-fit: cover;
-    width: 1400px;
-    height: auto;
+    height: 400px;
   }
 
   /* Introduction */
 
   .introduction{
-    max-width: 1400px;
-    margin: 0 auto;
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding-top: 112px;
-    padding-bottom: 128px;
+    padding-top: 56px;
+    padding-bottom: 98px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
-
   .introduction__text{
-    line-height: 1.8;
-    font-size: 1.25rem;
-    font-weight: normal;
+    font-size: 1rem;
+    text-align: left;
+  }
+  .introduction__text br{
+    display: none;
   }
 
   /* Exterior */
 
   .exterior{
-    background-color: #000;
-    padding-bottom: 128px;
-    max-width: 1400px;
-    margin: 0 auto;
+    padding-bottom: 0px;
   }
 
   .exterior__up{
     display: flex;
     width: 100%;
+    flex-direction: column;
   }
 
   .exterior__left{
-    background-color: #fff;
-    width: 29%;
-    position: relative;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 100%;
   }
 
   .exterior__left::before{
-    content: "";
-    width: 220px;
-    height: 100%;
-    background: #fff;
-    position: absolute;
-    right: -110px;
-    transform: skewX(-23deg);
+    content: none;
   }
 
   .exterior__title{
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-size: 1.125rem;
     width: fit-content;
-    margin-top: 217px;
-    margin-left: 132px;
-    border-bottom: 1px solid #000;
-    padding-bottom: 10px;
-    padding-right: 22.5px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin: 0 auto;
+    padding-right: 0px;
   }
 
   .exterior__title-ja{
-    margin-top: 8px;
-    margin-left: 132px;
-    font-size: 0.75rem;
-    font-weight: normal;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 0px;
   }
 
   .exterior__right{
-    width: 71%;
+    width: 100%;
   }
 
   .exterior__right img {
     width: 100%;
-    height: 500px;
-    vertical-align: bottom;
-    object-fit: cover;
+    height: auto;
   }
 
   .exterior__down{
-    display: flex;
-    width: 100%;
+    flex-direction: column;
   }
 
   .exterior__down__img{
-    width: 50%;
+    width: 100%;
   }
 
   .exterior__down__img img{
-    height: 340px;
+    height: auto;
   }
 
   /* Interior */
 
   .interior{
-    background-color: #000;
-    padding-bottom: 150px;
-    max-width: 1400px;
-    margin: 0 auto;
+    padding-bottom: 0px;
   }
 
   .interior__up{
-    display: flex;
-    width: 100%;
+    flex-direction: column;
   }
 
   .interior__left{
-    order: 2;
-    background-color: #fff;
-    width: 29%;
-    position: relative;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    order: 1;
+    width: 100%;
   }
 
   .interior__left::before{
-    content: "";
-    width: 220px;
-    height: 100%;
-    background: #fff;
-    position: absolute;
-    left: -110px;
-    transform: skewX(-23deg);
+    content: none;
   }
 
   .interior__title{
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-size: 1.125rem;
     width: fit-content;
-    margin-top: 217px;
-    margin-left: 124px;
-
-    border-bottom: 1px solid #000;
-    padding-bottom: 10px;
-    padding-right: 22.5px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin: 0 auto;
+    padding-right: 0px;
   }
 
   .interior__title-ja{
-    margin-top: 8px;
-    margin-left: 132px;
-    font-size: 0.75rem;
-    font-weight: normal;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 0px;
   }
 
   .interior__right{
-    order: 1;
-    width: 71%;
+    order: 2;
+    width: 100%;
   }
 
   .interior__right img {
     width: 100%;
-    height: 500px;
-    vertical-align: bottom;
-    object-fit: cover;
+    height: auto;
   }
 
   .interior__down{
-    display: flex;
-    width: 100%;
+    flex-direction: column;
   }
 
   .interior__down__img{
-    width: 50%;
+    width: 100%;
   }
 
   .interior__down__img img{
-    height: 340px;
+    height: auto;
   }
 
-  /* business.html */
+  /* business.html    ここからだ十月十八日 */
 
   .business-header{
     background-color: transparent;
