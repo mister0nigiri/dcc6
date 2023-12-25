@@ -3,12 +3,9 @@
 html{
   font-size: 100%;
   scroll-behavior: smooth;
-  overflow-x: hidden;
+
 }
 
-*{
-  outline: solid aquamarine;
-}
 
 body{
   color: #333;
@@ -709,6 +706,9 @@ SP
 
     /* Header */
 
+  .header{
+    overflow: hidden;
+  }
   .header__menu{
     display: none;
   }
