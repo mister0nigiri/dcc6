@@ -6,6 +6,10 @@ html{
   overflow-x: hidden;
 }
 
+*{
+  outline: solid aquamarine;
+}
+
 body{
   color: #333;
 }
